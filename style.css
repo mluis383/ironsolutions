@@ -1041,7 +1041,9 @@ body {
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    .hero-title { font-size: 2.5rem; }
+    .hero-title { 
+        font-size: 2.2rem; 
+    }
     .nav-links {
         display: none;
         position: absolute;
@@ -1053,8 +1055,12 @@ body {
         padding: 20px;
         border-bottom: 1px solid var(--border-glass);
     }
-    .nav-links.active { display: flex; }
-    .mobile-toggle { display: block; }
+    .nav-links.active { 
+        display: flex; 
+    }
+    .mobile-toggle { 
+        display: block; 
+    }
 }
 
 @media (max-width: 576px) {
@@ -1062,4 +1068,8 @@ body {
     .cta-buttons { flex-direction: column; }
     .hero-buttons { flex-direction: column; }
     .footer-links-group { grid-template-columns: 1fr; }
+    
+    .project-case {
+        padding: 16px;
+    }
 }

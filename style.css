@@ -1073,3 +1073,18 @@ body {
         padding: 16px;
     }
 }
+
+@media (max-width: 992px) {
+    /* Esconde o botão grande do topo apenas no celular */
+    .nav-actions, 
+    .navbar .btn-primary {
+        display: none !important;
+    }
+
+    /* Alinha o cabeçalho para o logo e o menu hamburguer ficarem nos cantos */
+    .navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

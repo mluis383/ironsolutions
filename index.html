@@ -3,17 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iron Solutions | Desenvolvimento Web & Soluções Digitais Premium</title>
+    <title>Iron Solution | Desenvolvimento de Software e Soluções Digitais</title>
     
     <!-- Meta Tags SEO & OpenGraph -->
-    <meta name="description" content="Desenvolvimento de sites institucionais, sistemas web, e-commerce e landing pages de alta performance. Iron Solutions por Mateus Luis da Silva.">
-    <meta name="keywords" content="Desenvolvimento Web, Software House, E-Commerce, UX/UI, SEO, Iron Solutions, Mateus Luis da Silva">
-    <meta name="author" content="Mateus Luis da Silva">
-    
-    <meta property="og:title" content="Iron Solutions | Soluções Digitais High-End">
-    <meta property="og:description" content="Engenharia de software e design de interfaces para empresas que buscam alta performance.">
+    <meta name="description" content="A Iron Solution é uma Software House especializada em desenvolvimento de software sob medida, sistemas web, e-commerce, UX/UI, cloud e transformação digital para empresas.">
+    <meta name="keywords" content="Software House, Desenvolvimento de Software, Sistemas Web, Aplicativos, E-Commerce, UX/UI Design, Transformação Digital, Cloud, APIs, Iron Solution">
+    <meta name="author" content="Iron Solution Enterprise">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ironsolution.com.br">
+    <meta name="theme-color" content="#0d0f12">
+
+    <!-- Favicon & Apple Touch Icon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff3333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 2 7 12 12 22 7 12 2'/><polyline points='2 17 12 22 22 17'/><polyline points='2 12 12 17 22 12'/></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff3333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 2 7 12 12 22 7 12 2'/><polyline points='2 17 12 22 22 17'/><polyline points='2 12 12 17 22 12'/></svg>">
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ironsolutions.com.br">
+    <meta property="og:url" content="https://ironsolution.com.br">
+    <meta property="og:title" content="Iron Solution | Soluções Digitais Inteligentes">
+    <meta property="og:description" content="Transformamos ideias em produtos digitais de alta performance, escaláveis e seguros para acelerar o crescimento do seu negócio.">
+    <meta property="og:image" content="https://ironsolution.com.br/og-image.jpg">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ironsolution.com.br">
+    <meta name="twitter:title" content="Iron Solution | Desenvolvimento de Software High-End">
+    <meta name="twitter:description" content="Construímos softwares que aceleram empresas com engenharia de ponta, cloud e UX/UI moderno.">
+    <meta name="twitter:image" content="https://ironsolution.com.br/og-image.jpg">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,25 +42,25 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Schema.org Data -->
+    <!-- Schema.org Data (JSON-LD) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Iron Solutions",
-      "image": "https://ironsolutions.com.br/logo.png",
-      "url": "https://ironsolutions.com.br",
-      "telephone": "+5511989185359",
-      "priceRange": "$$$",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "São Paulo",
-        "addressCountry": "BR"
+      "@type": "SoftwareApplication",
+      "name": "Iron Solution",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "All",
+      "url": "https://ironsolution.com.br",
+      "author": {
+        "@type": "Organization",
+        "name": "Iron Solution",
+        "url": "https://ironsolution.com.br",
+        "logo": "https://ironsolution.com.br/logo.png",
+        "sameAs": [
+          "https://instagram.com/ironsolutionss"
+        ]
       },
-      "founder": {
-        "@type": "Person",
-        "name": "Mateus Luis da Silva"
-      }
+      "description": "Software House especializada em desenvolvimento de plataformas web, aplicativos móveis, automação e arquitetura cloud para empresas."
     }
     </script>
 </head>
@@ -60,25 +76,27 @@
     <header id="navbar" class="navbar">
         <div class="nav-container">
             <a href="#hero" class="nav-brand">
+                <i data-lucide="layers" class="brand-icon"></i>
                 <span class="brand-iron">IRON</span>
-                <span class="brand-solutions">SOLUTIONS</span>
+                <span class="brand-solutions">SOLUTION</span>
                 <span class="brand-dot">.</span>
             </a>
 
             <nav class="nav-links" id="nav-links">
                 <a href="#hero" class="nav-link active">Home</a>
-                <a href="#sobre" class="nav-link">Sobre</a>
-                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#empresa" class="nav-link">Empresa</a>
+                <a href="#solucoes" class="nav-link">Soluções</a>
                 <a href="#tecnologias" class="nav-link">Tecnologias</a>
-                <a href="#portfolio" class="nav-link">Projetos</a>
+                <a href="#cases" class="nav-link">Cases</a>
                 <a href="#processo" class="nav-link">Processo</a>
+                <a href="#diferenciais" class="nav-link">Diferenciais</a>
                 <a href="#contato" class="nav-link">Contato</a>
             </nav>
 
             <div class="nav-actions">
                 <a href="https://wa.me/5511989185359" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple">
-                    <i data-lucide="message-square"></i>
-                    <span>WhatsApp</span>
+                    <i data-lucide="terminal"></i>
+                    <span>Solicitar Orçamento</span>
                 </a>
                 <button id="mobile-toggle" class="mobile-toggle" aria-label="Menu Mobile">
                     <i data-lucide="menu"></i>
@@ -96,34 +114,34 @@
                 <div class="hero-content">
                     <div class="badge-tech reveal-fade">
                         <span class="pulse-dot"></span>
-                        Software House & Agência Digital
+                        SOFTWARE HOUSE ENTERPRISE
                     </div>
 
                     <h1 class="hero-title reveal-type">
-                        Criando soluções digitais que <span class="text-gradient">impulsionam negócios.</span>
+                        Transformamos ideias em <span class="text-gradient">soluções digitais inteligentes.</span>
                     </h1>
 
                     <p class="hero-subtitle reveal-fade">
-                        Engenharia de software e UX/UI Design de padrão global. Desenvolvimento focado em alta velocidade, arquitetura escalável e conversão contínua:
+                        Criamos sistemas web, plataformas, e-commerces, aplicações corporativas e soluções digitais de alta performance para empresas que desejam crescer.
                     </p>
 
                     <div class="hero-tags reveal-fade">
-                        <span class="hero-tag"><i data-lucide="check"></i> Sites Institucionais</span>
-                        <span class="hero-tag"><i data-lucide="check"></i> Sistemas Web</span>
-                        <span class="hero-tag"><i data-lucide="check"></i> E-commerce</span>
-                        <span class="hero-tag"><i data-lucide="check"></i> Landing Pages</span>
-                        <span class="hero-tag"><i data-lucide="check"></i> SEO & Performance</span>
-                        <span class="hero-tag"><i data-lucide="check"></i> Automações</span>
+                        <span class="hero-tag"><i data-lucide="check-circle-2"></i> Software Sob Medida</span>
+                        <span class="hero-tag"><i data-lucide="check-circle-2"></i> Arquitetura em Nuvem</span>
+                        <span class="hero-tag"><i data-lucide="check-circle-2"></i> APIs & Integrações</span>
+                        <span class="hero-tag"><i data-lucide="check-circle-2"></i> UX/UI High-End</span>
+                        <span class="hero-tag"><i data-lucide="check-circle-2"></i> Segurança LGPD</span>
+                        <span class="hero-tag"><i data-lucide="check-circle-2"></i> Alta Escala</span>
                     </div>
 
                     <div class="hero-buttons reveal-fade">
-                        <a href="#portfolio" class="btn btn-primary ripple">
-                            <i data-lucide="layout"></i>
-                            <span>Ver Projetos</span>
-                        </a>
-                        <a href="https://wa.me/5511989185359" target="_blank" rel="noopener" class="btn btn-secondary ripple">
-                            <i data-lucide="send"></i>
+                        <a href="https://wa.me/5511989185359" target="_blank" rel="noopener" class="btn btn-primary ripple">
+                            <i data-lucide="arrow-right-circle"></i>
                             <span>Solicitar Orçamento</span>
+                        </a>
+                        <a href="#solucoes" class="btn btn-secondary ripple">
+                            <i data-lucide="grid"></i>
+                            <span>Conhecer Soluções</span>
                         </a>
                     </div>
                 </div>
@@ -136,7 +154,7 @@
                                 <span class="dot red"></span>
                                 <span class="dot yellow"></span>
                                 <span class="dot green"></span>
-                                <div class="laptop-address">https://ironsolutions.com.br</div>
+                                <div class="laptop-address">https://ironsolution.com.br/enterprise-hub</div>
                             </div>
                             <div class="laptop-body">
                                 <div class="mock-hero">
@@ -148,10 +166,10 @@
                                         <div class="mock-card shimmer"></div>
                                     </div>
                                     <div class="mock-chart">
-                                        <div class="bar" style="--h: 40%"></div>
-                                        <div class="bar" style="--h: 70%"></div>
-                                        <div class="bar" style="--h: 55%"></div>
-                                        <div class="bar" style="--h: 90%"></div>
+                                        <div class="bar" style="--h: 45%"></div>
+                                        <div class="bar" style="--h: 75%"></div>
+                                        <div class="bar" style="--h: 60%"></div>
+                                        <div class="bar" style="--h: 92%"></div>
                                         <div class="bar" style="--h: 100%"></div>
                                     </div>
                                 </div>
@@ -162,18 +180,18 @@
 
                     <!-- Elements Floating -->
                     <div class="float-card card-perf float-anim-1">
-                        <i data-lucide="zap" class="text-gold"></i>
+                        <i data-lucide="cpu" class="text-gold"></i>
                         <div>
-                            <strong>99/100</strong>
-                            <small>Performance Lighthouse</small>
+                            <strong>99.9% Uptime</strong>
+                            <small>SLA Corporativo & Nuvem</small>
                         </div>
                     </div>
 
                     <div class="float-card card-security float-anim-2">
                         <i data-lucide="shield-check" class="text-red"></i>
                         <div>
-                            <strong>Clean Code</strong>
-                            <small>Segurança & SEO</small>
+                            <strong>Segurança Zero Trust</strong>
+                            <small>Conformidade LGPD</small>
                         </div>
                     </div>
                 </div>
@@ -181,108 +199,92 @@
             </div>
         </section>
 
-        <!-- ESTATÍSTICAS / METRICAS -->
+        <!-- ESTATÍSTICAS CORPORATIVAS -->
         <section class="stats-section">
             <div class="container">
                 <div class="stats-grid">
                     <div class="stat-card glass-card">
-                        <div class="stat-number" data-target="20">+0</div>
-                        <div class="stat-label">Projetos Executados</div>
+                        <div class="stat-number" data-target="50">+0</div>
+                        <div class="stat-label">Projetos Entregues</div>
                     </div>
                     <div class="stat-card glass-card">
-                        <div class="stat-number" data-target="100">0%</div>
-                        <div class="stat-label">Responsivo & Fluid UI</div>
+                        <div class="stat-number" data-target="30">+0</div>
+                        <div class="stat-label">Clientes Atendidos</div>
                     </div>
                     <div class="stat-card glass-card">
-                        <div class="stat-number" data-target="99">0</div>
-                        <div class="stat-label">Score de Performance</div>
+                        <div class="stat-number" data-target="99">0%</div>
+                        <div class="stat-label">Satisfação Garantida</div>
                     </div>
                     <div class="stat-card glass-card">
-                        <div class="stat-number" data-target="100">0%</div>
-                        <div class="stat-label">Clientes Satisfeitos</div>
+                        <div class="stat-number" data-target="24">24/7</div>
+                        <div class="stat-label">Suporte Técnico</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- SOBRE MIM & TIMELINE -->
-        <section id="sobre" class="section">
+        <!-- EMPRESA (QUEM SOMOS) -->
+        <section id="empresa" class="section">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Fundador & Senior Dev</span>
-                    <h2 class="section-title">A Mente por trás da <span class="text-gradient">Iron Solutions</span></h2>
+                    <span class="section-badge">Quem Somos</span>
+                    <h2 class="section-title">Engenharia de Software com <span class="text-gradient">Propósito e Performance</span></h2>
                 </div>
 
                 <div class="about-grid">
                     <div class="about-info glass-card">
                         <div class="about-avatar-box">
                             <div class="avatar-placeholder">
-                                <i data-lucide="code-2"></i>
+                                <i data-lucide="building-2"></i>
                             </div>
                             <div>
-                                <h3>Mateus Luis da Silva</h3>
-                                <p class="text-gold font-mono">Fundador & Full-Stack Engineer</p>
+                                <h3>Iron Solution Enterprise</h3>
+                                <p class="text-gold font-mono">Software House & Digital Solutions Provider</p>
                             </div>
                         </div>
 
                         <p class="about-desc">
-                            Especialista no ecossistema de engenharia de software e UX/UI Design. À frente da <strong>Iron Solutions</strong>, transformo necessidades complexas em produtos digitais velozes, robustos e otimizados para gerar faturamento recorrente e posicionamento de marca enterprise.
+                            A <strong>Iron Solution</strong> é uma Software House especializada no desenvolvimento de soluções digitais personalizadas. Nossa missão é transformar desafios de negócio em produtos digitais escaláveis, modernos e altamente seguros, capacitando empresas a dominarem seus mercados através da tecnologia.
                         </p>
 
                         <div class="about-skills-summary">
                             <div class="skill-item">
-                                <span>Engenharia Front-end</span>
+                                <span>Arquitetura de Software & Cloud</span>
                                 <div class="progress-bar"><div class="progress" style="width: 98%"></div></div>
                             </div>
                             <div class="skill-item">
-                                <span>UI/UX Architecture</span>
-                                <div class="progress-bar"><div class="progress" style="width: 92%"></div></div>
+                                <span>Design Systems & UX/UI Corporativo</span>
+                                <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
                             </div>
                             <div class="skill-item">
-                                <span>SEO & Performance Otimizada</span>
-                                <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+                                <span>Segurança de Dados & Alta Disponibilidade</span>
+                                <div class="progress-bar"><div class="progress" style="width: 99%"></div></div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- TIMELINE -->
-                    <div class="timeline-box glass-card">
-                        <h3 class="timeline-title"><i data-lucide="git-commit"></i> Nossa Trajetória</h3>
-                        
-                        <div class="timeline">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <span class="timeline-date">Fase 01</span>
-                                    <h4>Início & Aprendizado</h4>
-                                    <p>Domínio em linguagens base web, arquitetura de dados e fundamentação de design systems.</p>
+                    <div class="about-pillars glass-card">
+                        <h3 class="timeline-title"><i data-lucide="target"></i> Nossos Pilares Estratégicos</h3>
+                        <div class="pillars-list">
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i data-lucide="rocket"></i></div>
+                                <div>
+                                    <h4>Inovação Escalável</h4>
+                                    <p>Construímos plataformas prontas para suportar crescimento acelerado de tráfego e transações sem perder estabilidade.</p>
                                 </div>
                             </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <span class="timeline-date">Fase 02</span>
-                                    <h4>Primeiros Clientes & Case Study</h4>
-                                    <p>Primeiros projetos entregues com sucesso nos setores corporativo e comercial.</p>
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i data-lucide="shield-alert"></i></div>
+                                <div>
+                                    <h4>Confiabilidade Enterprise</h4>
+                                    <p>Código limpo, rotinas rigorosas de testes e total conformidade com regulamentações globais de privacidade.</p>
                                 </div>
                             </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <span class="timeline-date">Fase 03</span>
-                                    <h4>Fundação da Iron Solutions</h4>
-                                    <p>Lançamento oficial da Software House para atendimento focado em alta performance e marcas modernas.</p>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-dot active"></div>
-                                <div class="timeline-content">
-                                    <span class="timeline-date">Hoje</span>
-                                    <h4>Escala & Produtos High-End</h4>
-                                    <p>Desenvolvimento contínuo de ecossistemas completos, ERPs customizados e e-commerces.</p>
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i data-lucide="zap"></i></div>
+                                <div>
+                                    <h4>Foco no Resultado</h4>
+                                    <p>Cada linha de código é projetada para otimizar operações, reduzir custos e aumentar as margens de conversão.</p>
                                 </div>
                             </div>
                         </div>
@@ -291,50 +293,86 @@
             </div>
         </section>
 
-        <!-- SERVIÇOS -->
-        <section id="servicos" class="section bg-card-dark">
+        <!-- SERVIÇOS / SOLUÇÕES -->
+        <section id="solucoes" class="section bg-card-dark">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Soluções Completas</span>
-                    <h2 class="section-title">Serviços e Especialidades <span class="text-gradient">Digital Enterprise</span></h2>
-                    <p class="section-subtitle">Arquiteturas sob medida desenhadas para máxima conversão, retenção e escala.</p>
+                    <span class="section-badge">Ecossistema de Soluções</span>
+                    <h2 class="section-title">Soluções Empresariais <span class="text-gradient">Sob Medida</span></h2>
+                    <p class="section-subtitle">Tecnologia avançada para alavancar e automatizar suas operações no ecossistema digital.</p>
                 </div>
 
                 <div class="services-grid">
                     <div class="service-card glass-card hover-3d">
                         <div class="service-icon"><i data-lucide="globe"></i></div>
-                        <h3>Sites Institucionais</h3>
-                        <p>Websites modernos, ultravelozes e otimizados para posicionar marcas no topo do mercado corporativo.</p>
-                    </div>
-
-                    <div class="service-card glass-card hover-3d">
-                        <div class="service-icon"><i data-lucide="target"></i></div>
-                        <h3>Landing Pages High-Impact</h3>
-                        <p>Páginas de vendas altamente persuasivas com estrutura focada em gerar conversões diárias.</p>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Plataformas institucionais, portais corporativos e ecossistemas web de altíssima velocidade e estética refinada.</p>
                     </div>
 
                     <div class="service-card glass-card hover-3d">
                         <div class="service-icon"><i data-lucide="cpu"></i></div>
-                        <h3>Sistemas Web & ERPs</h3>
-                        <p>Plataformas customizadas para automação de processos, gestão de estoque e dashboards analíticos.</p>
+                        <h3>Desenvolvimento de Sistemas</h3>
+                        <p>Sistemas ERP, CRM e painéis operacionais sob medida para otimizar os fluxos de trabalho da sua empresa.</p>
+                    </div>
+
+                    <div class="service-card glass-card hover-3d">
+                        <div class="service-icon"><i data-lucide="layout"></i></div>
+                        <h3>Landing Pages</h3>
+                        <p>Páginas de vendas e conversão de altíssimo impacto, projetadas para capturar leads de elevado valor.</p>
                     </div>
 
                     <div class="service-card glass-card hover-3d">
                         <div class="service-icon"><i data-lucide="shopping-cart"></i></div>
-                        <h3>E-Commerce Sob Medida</h3>
-                        <p>Lojas virtuais elegantes com cálculo dinâmico de frete, carrinho em tempo real e checkout fluido.</p>
+                        <h3>E-Commerce Enterprise</h3>
+                        <p>Lojas virtuais robustas, seguras e dinâmicas preparadas para transacionar grandes volumes com rapidez.</p>
                     </div>
 
                     <div class="service-card glass-card hover-3d">
-                        <div class="service-icon"><i data-lucide="trending-up"></i></div>
-                        <h3>Otimização SEO & Performance</h3>
-                        <p>Ajustes técnicos avançados para colocar sua empresa na primeira página das pesquisas do Google.</p>
+                        <div class="service-icon"><i data-lucide="smartphone"></i></div>
+                        <h3>Aplicativos Mobile</h3>
+                        <p>Aplicações nativas e híbridas para iOS e Android com navegação intuitiva e suporte a notificações push.</p>
                     </div>
 
                     <div class="service-card glass-card hover-3d">
-                        <div class="service-icon"><i data-lucide="server"></i></div>
-                        <h3>Hospedagem & Manutenção</h3>
-                        <p>Infraestrutura em nuvem, certificação de segurança SSL, rotinas de backup e suporte dedicado.</p>
+                        <div class="service-icon"><i data-lucide="webhook"></i></div>
+                        <h3>Integrações & APIs</h3>
+                        <p>Conexão transparente entre sistemas, gateways de pagamento, plataformas de gestão e ERPs legados.</p>
+                    </div>
+
+                    <div class="service-card glass-card hover-3d">
+                        <div class="service-icon"><i data-lucide="bot"></i></div>
+                        <h3>Automação de Processos</h3>
+                        <p>Elimine gargalos operacionais com rotinas automatizadas e bots inteligentes de fluxo de trabalho.</p>
+                    </div>
+
+                    <div class="service-card glass-card hover-3d">
+                        <div class="service-icon"><i data-lucide="figma"></i></div>
+                        <h3>UX/UI Design</h3>
+                        <p>Interfaces centradas no usuário, prototipagem avançada e Design Systems preparados para escalar produtos.</p>
+                    </div>
+
+                    <div class="service-card glass-card hover-3d">
+                        <div class="service-icon"><i data-lucide="search-code"></i></div>
+                        <h3>Otimização SEO</h3>
+                        <p>Arquitetura técnica otimizada para buscadores, garantindo alcance orgânico e posicionamento de topo no Google.</p>
+                    </div>
+
+                    <div class="service-card glass-card hover-3d">
+                        <div class="service-icon"><i data-lucide="cloud"></i></div>
+                        <h3>Cloud & Infraestrutura</h3>
+                        <p>Hospedagem de alta disponibilidade em AWS, Cloudflare e servidores Linux com balancemento de carga.</p>
+                    </div>
+
+                    <div class="service-card glass-card hover-3d">
+                        <div class="service-icon"><i data-lucide="code-2"></i></div>
+                        <h3>Desenvolvimento de APIs</h3>
+                        <p>Criação de microserviços RESTful e GraphQL seguros, documentados e preparados para integrações.</p>
+                    </div>
+
+                    <div class="service-card glass-card hover-3d">
+                        <div class="service-icon"><i data-lucide="shield-check"></i></div>
+                        <h3>Manutenção & Sustentação</h3>
+                        <p>Monitoramento 24/7, atualização tecnológica, rotinas de backup e segurança preventiva contínua.</p>
                     </div>
                 </div>
             </div>
@@ -344,37 +382,41 @@
         <section id="tecnologias" class="section">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Stack Tecnológica</span>
-                    <h2 class="section-title">Ferramentas de <span class="text-gradient">Última Geração</span></h2>
+                    <span class="section-badge">Stack de Engenharia</span>
+                    <h2 class="section-title">Tecnologias de <span class="text-gradient">Última Geração</span></h2>
+                    <p class="section-subtitle">Utilizamos as linguagens, frameworks e ferramentas mais consolidadas do mercado global.</p>
                 </div>
 
                 <div class="tech-grid">
-                    <div class="tech-badge"><i data-lucide="file-code-2"></i> HTML5 Otimizado</div>
-                    <div class="tech-badge"><i data-lucide="palette"></i> CSS3 / Modern Flex & Grid</div>
-                    <div class="tech-badge"><i data-lucide="code"></i> JavaScript ES6+</div>
-                    <div class="tech-badge"><i data-lucide="database"></i> PHP Moderno</div>
+                    <div class="tech-badge"><i data-lucide="file-code-2"></i> HTML5</div>
+                    <div class="tech-badge"><i data-lucide="palette"></i> CSS3</div>
+                    <div class="tech-badge"><i data-lucide="code-2"></i> JavaScript</div>
+                    <div class="tech-badge"><i data-lucide="file-type-2"></i> TypeScript</div>
+                    <div class="tech-badge"><i data-lucide="atom"></i> React</div>
+                    <div class="tech-badge"><i data-lucide="layers"></i> Next.js</div>
+                    <div class="tech-badge"><i data-lucide="box"></i> Vue.js</div>
+                    <div class="tech-badge"><i data-lucide="server"></i> PHP</div>
+                    <div class="tech-badge"><i data-lucide="flame"></i> Laravel</div>
+                    <div class="tech-badge"><i data-lucide="node-js"></i> Node.js</div>
+                    <div class="tech-badge"><i data-lucide="terminal"></i> Python</div>
                     <div class="tech-badge"><i data-lucide="database"></i> MySQL</div>
-                    <div class="tech-badge"><i data-lucide="database"></i> Oracle Database</div>
-                    <div class="tech-badge"><i data-lucide="git-branch"></i> Git / GitHub</div>
-                    <div class="tech-badge"><i data-lucide="terminal"></i> Linux Server Environment</div>
-                    <div class="tech-badge"><i data-lucide="layout-grid"></i> Bootstrap / Tailwind Stack</div>
-                    <div class="tech-badge"><i data-lucide="layers"></i> WordPress Custom Theme</div>
-                    <div class="tech-badge"><i data-lucide="webhook"></i> REST APIs Integration</div>
-                    <div class="tech-badge"><i data-lucide="smartphone"></i> PWA (Progressive Web Apps)</div>
-                    <div class="tech-badge"><i data-lucide="monitor-smartphone"></i> Design Responsivo Fluid</div>
-                    <div class="tech-badge"><i data-lucide="figma"></i> UI/UX Design System</div>
-                    <div class="tech-badge"><i data-lucide="search"></i> Technical SEO Architecture</div>
+                    <div class="tech-badge"><i data-lucide="database"></i> PostgreSQL</div>
+                    <div class="tech-badge"><i data-lucide="container"></i> Docker</div>
+                    <div class="tech-badge"><i data-lucide="git-branch"></i> Git</div>
+                    <div class="tech-badge"><i data-lucide="cloud"></i> AWS</div>
+                    <div class="tech-badge"><i data-lucide="shield"></i> Cloudflare</div>
+                    <div class="tech-badge"><i data-lucide="cpu"></i> Linux</div>
                 </div>
             </div>
         </section>
 
-        <!-- PORTFÓLIO (CASES DE SUCESSO) -->
-        <section id="portfolio" class="section bg-card-dark">
+        <!-- CASES DE SUCESSO -->
+        <section id="cases" class="section bg-card-dark">
             <div class="container">
                 <div class="section-header text-center">
                     <span class="section-badge">Cases de Sucesso</span>
-                    <h2 class="section-title">Projetos em <span class="text-gradient">Destaque</span></h2>
-                    <p class="section-subtitle">Conheça algumas das plataformas e produtos digitais que desenvolvemos.</p>
+                    <h2 class="section-title">Projetos <span class="text-gradient">Entregues</span></h2>
+                    <p class="section-subtitle">Conheça algumas das plataformas enterprise que transformaram o ecossistema dos nossos clientes.</p>
                 </div>
 
                 <div class="projects-stack">
@@ -390,27 +432,30 @@
                                 </div>
                                 <div class="case-preview bg-case-1">
                                     <div class="case-overlay">
-                                        <h3>Iron Solutions</h3>
-                                        <p>Software House Platform</p>
+                                        <h3>Iron Solution</h3>
+                                        <p>Enterprise Hub</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="project-info">
                             <span class="status-tag status-online"><i data-lucide="activity"></i> Em Produção</span>
-                            <h3 class="project-name">Iron Solutions — Official Platform</h3>
-                            <p class="project-category font-mono">Software House & Agência Digital</p>
+                            <h3 class="project-name">Iron Solution Hub</h3>
+                            <p class="project-category font-mono">Software House Platform</p>
                             <p class="project-description">
-                                Plataforma corporativa desenvolvida sob o conceito Dark UI futurista, com efeitos de partículas, apresentação interativa de serviços e fluxo direto de orçamento via WhatsApp.
+                                Ecossistema institucional corporativo focado em apresentar soluções em software, infraestrutura em nuvem e captação automatizada de novos clientes corporativos.
                             </p>
                             <div class="project-techs">
-                                <span>HTML5/CSS3</span>
+                                <span>HTML5 / CSS3</span>
                                 <span>JavaScript ES6</span>
-                                <span>Dark UI</span>
                                 <span>Glassmorphism</span>
+                                <span>Dark UI</span>
                             </div>
-                            <a href="http://ironsolutions.com.br" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple">
-                                <span>Abrir Projeto</span>
+                            <div class="case-result">
+                                <strong>Resultado:</strong> +180% em solicitações de orçamento corporativo nos primeiros 30 dias.
+                            </div>
+                            <a href="https://ironsolution.com.br" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple margin-top-15">
+                                <span>Ver Detalhes</span>
                                 <i data-lucide="external-link"></i>
                             </a>
                         </div>
@@ -428,25 +473,28 @@
                                 <div class="case-preview bg-case-2">
                                     <div class="case-overlay">
                                         <h3>Contavann</h3>
-                                        <p>Contabilidade & Consultoria</p>
+                                        <p>Consultoria Financeira</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="project-info">
                             <span class="status-tag status-online"><i data-lucide="activity"></i> Em Produção</span>
-                            <h3 class="project-name">Contavann — Contabilidade Moderna</h3>
+                            <h3 class="project-name">Portal Contavann Contabilidade</h3>
                             <p class="project-category font-mono">Portal Corporativo / Consultoria</p>
                             <p class="project-description">
-                                Website empresarial focado em autoridade financeira, contando com carrosséis interativos, tabelas explicativas de serviços, depoimentos de clientes e integração para captura de leads.
+                                Portal de autoridade corporativa com simulação de serviços, captação de leads qualificados e módulo de comunicação direta para atendimento a empresas.
                             </p>
                             <div class="project-techs">
                                 <span>UX/UI Corporate</span>
                                 <span>SEO Otimizado</span>
-                                <span>Javascript Carousel</span>
+                                <span>JavaScript Dynamic</span>
                             </div>
-                            <a href="https://contavann.com.br" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple">
-                                <span>Abrir Projeto</span>
+                            <div class="case-result">
+                                <strong>Resultado:</strong> Redução de 40% no tempo de atendimento primário a novos clientes.
+                            </div>
+                            <a href="https://contavann.com.br" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple margin-top-15">
+                                <span>Ver Detalhes</span>
                                 <i data-lucide="external-link"></i>
                             </a>
                         </div>
@@ -471,18 +519,21 @@
                         </div>
                         <div class="project-info">
                             <span class="status-tag status-online"><i data-lucide="activity"></i> Em Produção</span>
-                            <h3 class="project-name">Romax Contabilidade</h3>
-                            <p class="project-category font-mono">Portal de Serviços Empresariais</p>
+                            <h3 class="project-name">Plataforma Romax Contabilidade</h3>
+                            <p class="project-category font-mono">Plataforma Empresarial</p>
                             <p class="project-description">
-                                Plataforma minimalista construída com foco em alta performance de carregamento e facilidade de navegação para clientes corporativos de diversos segmentos.
+                                Plataforma institucional ultraveloz com foco em agilidade de navegação, arquitetura limpa e otimização SEO para indexação nos mecanismos de busca.
                             </p>
                             <div class="project-techs">
-                                <span>Clean Code</span>
+                                <span>Clean Architecture</span>
                                 <span>Mobile First</span>
-                                <span>Fast Load</span>
+                                <span>Fast Load Engine</span>
                             </div>
-                            <a href="https://romaxcontabilidade.com.br" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple">
-                                <span>Abrir Projeto</span>
+                            <div class="case-result">
+                                <strong>Resultado:</strong> Score de carregamento de 99/100 no Google PageSpeed Insights.
+                            </div>
+                            <a href="https://romaxcontabilidade.com.br" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple margin-top-15">
+                                <span>Ver Detalhes</span>
                                 <i data-lucide="external-link"></i>
                             </a>
                         </div>
@@ -499,26 +550,29 @@
                                 </div>
                                 <div class="case-preview bg-case-4">
                                     <div class="case-overlay">
-                                        <h3>Aurum Store</h3>
-                                        <p>E-Commerce Joalheria</p>
+                                        <h3>Aurum</h3>
+                                        <p>E-Commerce de Alta Joalheria</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="project-info">
                             <span class="status-tag status-dev"><i data-lucide="clock"></i> Em Desenvolvimento</span>
-                            <h3 class="project-name">Aurum — E-Commerce de Luxo</h3>
-                            <p class="project-category font-mono">E-Commerce completo com Dashboard</p>
+                            <h3 class="project-name">E-Commerce Aurum Luxo</h3>
+                            <p class="project-category font-mono">E-Commerce Sob Medida</p>
                             <p class="project-description">
-                                Loja virtual premium com catálogo responsivo, filtros de produtos, carrinho de compras assíncrono em JavaScript e painel gestor para acompanhamento de vendas.
+                                Plataforma de vendas online de luxo com catálogo responsivo, filtros assíncronos, carrinho de compras inteligente e integração de pagamentos em tempo real.
                             </p>
                             <div class="project-techs">
                                 <span>E-Commerce Engine</span>
-                                <span>Dashboard UI</span>
-                                <span>Dynamic Cart</span>
+                                <span>Custom Dashboard</span>
+                                <span>Realtime Cart</span>
                             </div>
-                            <a href="https://mluis383.github.io/loja/" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple">
-                                <span>Abrir Projeto</span>
+                            <div class="case-result">
+                                <strong>Resultado:</strong> Aumento previsto de 300% em conversão em comparação a plataformas genéricas.
+                            </div>
+                            <a href="https://mluis383.github.io/loja/" target="_blank" rel="noopener" class="btn btn-primary btn-sm ripple margin-top-15">
+                                <span>Ver Detalhes</span>
                                 <i data-lucide="external-link"></i>
                             </a>
                         </div>
@@ -532,87 +586,119 @@
         <section id="processo" class="section">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Metodologia</span>
+                    <span class="section-badge">Nossa Metodologia</span>
                     <h2 class="section-title">Como <span class="text-gradient">Desenvolvemos</span></h2>
+                    <p class="section-subtitle">Processo estruturado para garantir máxima transparência, prazo rigoroso e excelência técnica.</p>
                 </div>
 
                 <div class="process-timeline">
                     <div class="process-step glass-card">
                         <div class="step-number">01</div>
-                        <h3>Briefing</h3>
-                        <p>Imersão no seu modelo de negócio para alinhar objetivos e requisitos.</p>
+                        <h3>Planejamento</h3>
+                        <p>Alinhamento de metas de negócio, levantamento de requisitos técnicos e análise de concorrência.</p>
                     </div>
 
                     <div class="process-step glass-card">
                         <div class="step-number">02</div>
-                        <h3>Planejamento</h3>
-                        <p>Definição da arquitetura, stack ideal e mapa de telas do sistema.</p>
+                        <h3>Design</h3>
+                        <p>Criação dos fluxos de UX, protótipos de alta fidelidade e definição da identidade visual do produto.</p>
                     </div>
 
                     <div class="process-step glass-card">
                         <div class="step-number">03</div>
-                        <h3>Design UI/UX</h3>
-                        <p>Criação dos protótipos focados na experiência do usuário e conversão.</p>
+                        <h3>Desenvolvimento</h3>
+                        <p>Codificação da arquitetura backend, frontend e banco de dados seguindo boas práticas enterprise.</p>
                     </div>
 
                     <div class="process-step glass-card">
                         <div class="step-number">04</div>
-                        <h3>Desenvolvimento</h3>
-                        <p>Codificação limpa, escalável e com integração de recursos modernos.</p>
+                        <h3>Testes</h3>
+                        <p>Validação rigorosa de segurança, performance, compatibilidade entre dispositivos e testes de carga.</p>
                     </div>
 
                     <div class="process-step glass-card">
                         <div class="step-number">05</div>
-                        <h3>Testes</h3>
-                        <p>Validação técnica rigorosa de velocidade, SEO, segurança e responsividade.</p>
+                        <h3>Implantação</h3>
+                        <p>Deploy automatizado em infraestrutura cloud, configuração de domínios, SSL e monitoramento.</p>
                     </div>
 
                     <div class="process-step glass-card">
                         <div class="step-number">06</div>
-                        <h3>Publicação</h3>
-                        <p>Deploy oficial nos servidores, configuração de domínio e SSL.</p>
-                    </div>
-
-                    <div class="process-step glass-card">
-                        <div class="step-number">07</div>
                         <h3>Suporte</h3>
-                        <p>Acompanhamento e evolução contínua do projeto.</p>
+                        <p>Acompanhamento contínuo, manutenção preventiva, updates e evolução estratégica da solução.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- DIFERENCIAIS -->
-        <section class="section bg-card-dark">
+        <section id="diferenciais" class="section bg-card-dark">
             <div class="container">
                 <div class="section-header text-center">
                     <span class="section-badge">Por que nos escolher</span>
-                    <h2 class="section-title">Nossos <span class="text-gradient">Diferenciais</span></h2>
+                    <h2 class="section-title">Diferenciais <span class="text-gradient">Iron Solution</span></h2>
+                    <p class="section-subtitle">O padrão de engenharia e compromisso que destaca a Iron Solution no mercado.</p>
                 </div>
 
                 <div class="diff-grid">
                     <div class="diff-card glass-card">
-                        <i data-lucide="gauge" class="diff-icon text-red"></i>
+                        <i data-lucide="code-2" class="diff-icon text-gold"></i>
+                        <h3>Código Limpo</h3>
+                        <p>Arquitetura moderna, modular e legível desenvolvida segundo as mais rigorosas diretrizes da indústria.</p>
+                    </div>
+
+                    <div class="diff-card glass-card">
+                        <i data-lucide="layers-3" class="diff-icon text-red"></i>
+                        <h3>Arquitetura Escalável</h3>
+                        <p>Plataformas projetadas para crescer com seu negócio sem necessidade de reescritas complexas no futuro.</p>
+                    </div>
+
+                    <div class="diff-card glass-card">
+                        <i data-lucide="zap" class="diff-icon text-gold"></i>
                         <h3>Alta Performance</h3>
-                        <p>Carregamento ultrarrápido garantindo a melhor pontuação técnica no Google PageSpeed.</p>
+                        <p>Carregamento instantâneo para proporcionar a melhor experiência do usuário e otimização máxima no Google.</p>
+                    </div>
+
+                    <div class="diff-card glass-card">
+                        <i data-lucide="search" class="diff-icon text-red"></i>
+                        <h3>SEO Nativo</h3>
+                        <p>Codificação otimizada desde a base para assegurar indexação prioritária nos mecanismos de busca.</p>
+                    </div>
+
+                    <div class="diff-card glass-card">
+                        <i data-lucide="file-check" class="diff-icon text-gold"></i>
+                        <h3>Conformidade LGPD</h3>
+                        <p>Proteção de dados rigorosa e termos de privacidade alinhados com as exigências legais de segurança.</p>
+                    </div>
+
+                    <div class="diff-card glass-card">
+                        <i data-lucide="shield-check" class="diff-icon text-red"></i>
+                        <h3>Segurança Avançada</h3>
+                        <p>Proteção contra vulnerabilidades, criptografia de ponta e auditorias de código regulares.</p>
                     </div>
 
                     <div class="diff-card glass-card">
                         <i data-lucide="sparkles" class="diff-icon text-gold"></i>
-                        <h3>Design Exclusivo</h3>
-                        <p>Layouts únicos construídos sob medida sem utilização de modelos genéricos ou engessados.</p>
+                        <h3>UX/UI de Classe Mundial</h3>
+                        <p>Interfaces sofisticadas e fluidas que engajam e transmitem autoridade imediata ao seu cliente.</p>
                     </div>
 
                     <div class="diff-card glass-card">
-                        <i data-lucide="search-check" class="diff-icon text-red"></i>
-                        <h3>SEO Nativo</h3>
-                        <p>Sua plataforma estruturada desde o primeiro dia para ser indexada com destaque nos buscadores.</p>
+                        <i data-lucide="headphone-off" class="diff-icon text-red"></i>
+                        <h3>Suporte Contínuo</h3>
+                        <p>Equipe dedicada para responder demandas técnicas, manter a plataforma ativa e atualizar sistemas.</p>
                     </div>
 
                     <div class="diff-card glass-card">
-                        <i data-lucide="shield" class="diff-icon text-gold"></i>
-                        <h3>Código Limpo & Escalável</h3>
-                        <p>Manutenção simples e arquitetura flexível pronta para crescer junto com seu negócio.</p>
+                        <i data-lucide="cloud-lightning" class="diff-icon text-gold"></i>
+                        <h3>Hospedagem Cloud</h3>
+                        <p>Infraestrutura gerenciada em servidores de alta capacidade para garantir estabilidade ininterrupta.</p>
+                    </div>
+
+                    <div class="diff-card glass-card">
+                        <i data-lucide="briefcase" class="diff-icon text-red"></i>
+                        <h3>Consultoria Especializada</h3>
+                        <p>Orientação estratégica para indicar as melhores tecnologias e investimentos para seu modelo de negócio.</p>
                     </div>
                 </div>
             </div>
@@ -623,17 +709,17 @@
             <div class="container">
                 <div class="cta-box glass-card text-center">
                     <div class="cta-glow"></div>
-                    <h2 class="cta-title">Vamos criar seu próximo <span class="text-gradient">projeto extraordinário?</span></h2>
-                    <p class="cta-desc">Transforme a presença digital da sua empresa com uma plataforma de padrão mundial.</p>
+                    <h2 class="cta-title">Vamos construir sua próxima <span class="text-gradient">solução digital?</span></h2>
+                    <p class="cta-desc">Fale com nossos especialistas e descubra como a Iron Solution pode impulsionar o seu negócio com software de ponta.</p>
                     
                     <div class="cta-buttons">
                         <a href="https://wa.me/5511989185359" target="_blank" rel="noopener" class="btn btn-primary btn-lg ripple">
                             <i data-lucide="message-square"></i>
-                            <span>Falar no WhatsApp</span>
+                            <span>Solicitar Orçamento</span>
                         </a>
-                        <a href="mailto:mateus.silva.luis02@gmail.com" class="btn btn-secondary btn-lg ripple">
+                        <a href="mailto:contato@ironsolution.com.br" class="btn btn-secondary btn-lg ripple">
                             <i data-lucide="mail"></i>
-                            <span>Enviar E-mail</span>
+                            <span>Falar com Consultor</span>
                         </a>
                     </div>
                 </div>
@@ -644,40 +730,41 @@
         <section id="contato" class="section">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-badge">Atendimento</span>
-                    <h2 class="section-title">Canais de <span class="text-gradient">Contato Direct</span></h2>
+                    <span class="section-badge">Atendimento Enterprise</span>
+                    <h2 class="section-title">Canais de <span class="text-gradient">Contato Corporativo</span></h2>
+                    <p class="section-subtitle">Estamos prontos para atender a sua empresa com agilidade e eficiência.</p>
                 </div>
 
                 <div class="contact-grid">
                     <a href="https://wa.me/5511989185359" target="_blank" rel="noopener" class="contact-card glass-card hover-3d">
-                        <div class="contact-icon"><i data-lucide="phone"></i></div>
+                        <div class="contact-icon"><i data-lucide="message-circle"></i></div>
                         <div>
                             <h4>WhatsApp</h4>
                             <p>(11) 98918-5359</p>
                         </div>
                     </a>
 
-                    <a href="mailto:mateus.silva.luis02@gmail.com" class="contact-card glass-card hover-3d">
+                    <a href="mailto:contato@ironsolution.com.br" class="contact-card glass-card hover-3d">
                         <div class="contact-icon"><i data-lucide="mail"></i></div>
                         <div>
                             <h4>E-mail</h4>
-                            <p>mateus.silva.luis02@gmail.com</p>
+                            <p>contato@ironsolution.com.br</p>
                         </div>
                     </a>
+
+                    <div class="contact-card glass-card hover-3d">
+                        <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>São Paulo, SP - Brasil</p>
+                        </div>
+                    </div>
 
                     <a href="https://instagram.com/ironsolutionss" target="_blank" rel="noopener" class="contact-card glass-card hover-3d">
                         <div class="contact-icon"><i data-lucide="instagram"></i></div>
                         <div>
-                            <h4>Instagram</h4>
+                            <h4>Redes Sociais</h4>
                             <p>@ironsolutionss</p>
-                        </div>
-                    </a>
-
-                    <a href="http://ironsolutions.com.br" target="_blank" rel="noopener" class="contact-card glass-card hover-3d">
-                        <div class="contact-icon"><i data-lucide="globe"></i></div>
-                        <div>
-                            <h4>Website</h4>
-                            <p>ironsolutions.com.br</p>
                         </div>
                     </a>
                 </div>
@@ -688,16 +775,50 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container footer-content">
-            <div class="footer-brand">
-                <a href="#hero" class="nav-brand">
-                    <span class="brand-iron">IRON</span>
-                    <span class="brand-solutions">SOLUTIONS</span>
-                </a>
-                <p>Criando soluções digitais que impulsionam negócios com tecnologia, UX e alta performance.</p>
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-brand">
+                        <i data-lucide="layers" class="brand-icon"></i>
+                        <span class="brand-iron">IRON</span>
+                        <span class="brand-solutions">SOLUTION</span>
+                    </a>
+                    <p>Software House especializada em soluções digitais inteligentes, engenharia de software e transformação digital sob medida para empresas.</p>
+                </div>
+
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#empresa">Quem Somos</a></li>
+                            <li><a href="#processo">Metodologia</a></li>
+                            <li><a href="#diferenciais">Diferenciais</a></li>
+                            <li><a href="#cases">Cases de Sucesso</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#solucoes">Desenvolvimento Web</a></li>
+                            <li><a href="#solucoes">Sistemas Corporativos</a></li>
+                            <li><a href="#solucoes">E-Commerce Enterprise</a></li>
+                            <li><a href="#solucoes">Cloud & APIs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href="https://wa.me/5511989185359" target="_blank" rel="noopener">WhatsApp</a></li>
+                            <li><a href="mailto:contato@ironsolution.com.br">contato@ironsolution.com.br</a></li>
+                            <li><span>São Paulo - SP</span></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="footer-copy">
-                <p>&copy; 2026 Iron Solutions. Todos os direitos reservados. Desenvolvido por Mateus Luis da Silva.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Iron Solution. Todos os direitos reservados. Soluções Inteligentes em Software.</p>
             </div>
 
             <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">

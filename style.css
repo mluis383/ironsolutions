@@ -746,13 +746,13 @@ body {
     background-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.9) 100%), url('iron.jpeg'); 
 }
 .bg-case-2 { 
-    background-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.9) 100%), url('contavann.jpg'); 
+    background-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.9) 100%), url('contavann.png'); 
 }
 .bg-case-3 { 
     background-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.9) 100%), url('romax.jpg'); 
 }
 .bg-case-4 { 
-    background-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.9) 100%), url('aurum.jpg'); 
+    background-image: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.9) 100%), url('gastro.png'); 
 }
 .case-overlay h3 { font-size: 1.4rem; color: #fff; }
 .case-overlay p { font-size: 0.85rem; color: var(--accent-gold); }
@@ -1087,4 +1087,95 @@ body {
         justify-content: space-between;
         align-items: center;
     }
+}
+
+.brand-logo {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* ALINHAMENTO DA BRAND NA NAVBAR */
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-family: var(--font-display, 'Orbitron', sans-serif);
+    font-weight: 900;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.brand-logo {
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+}
+
+/* CORES DA MARCA */
+.brand-iron {
+    color: #ffffff;
+}
+
+.brand-solutions {
+    color: var(--primary-color, #ff2e2e); /* Vermelho */
+}
+
+.brand-dot {
+    color: var(--accent-color, #ffd700); /* Dourado */
+}
+
+/* AJUSTE RESPONSIVO MOBILE */
+@media (max-width: 768px) {
+    .nav-brand {
+        font-size: 1.05rem;
+        gap: 8px;
+    }
+
+    .brand-logo {
+        height: 34px;
+    }
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-logo {
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+}
+
+.brand-name {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.brand-iron {
+    color: #ffffff;
+}
+
+.brand-solutions {
+    color: #ff3038;
+    margin-left: 5px;
+}
+
+.brand-dot {
+    color: #ffd700;
 }
